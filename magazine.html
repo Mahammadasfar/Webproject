@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Al Masood | Magazine</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="header-wrap">
+      <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon">
+              <i class="la-bars las"></i>
+            </span>
+          </button>
+          <a href="index.html" class="navbar-brand">
+            <img src="images/logo.png" class="img-fluid" />
+          </a>
+          <div class="menu-wrap">
+            <div class="top-bar">
+              <ul class="nav top-nav">
+                <li class="dropdown nav-item lang-sel">
+                  <a class="dropdown-toggle nav-link" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                      fill-rule="evenodd" clip-rule="evenodd">
+                      <path fill="#fff"
+                        d="M12.02 0c6.614.011 11.98 5.383 11.98 12 0 6.623-5.376 12-12 12-6.623 0-12-5.377-12-12 0-6.617 5.367-11.989 11.981-12h.039zm3.694 16h-7.427c.639 4.266 2.242 7 3.713 7 1.472 0 3.075-2.734 3.714-7m6.535 0h-5.523c-.426 2.985-1.321 5.402-2.485 6.771 3.669-.76 6.671-3.35 8.008-6.771m-14.974 0h-5.524c1.338 3.421 4.34 6.011 8.009 6.771-1.164-1.369-2.059-3.786-2.485-6.771m-.123-7h-5.736c-.331 1.166-.741 3.389 0 6h5.736c-.188-1.814-.215-3.925 0-6m8.691 0h-7.685c-.195 1.8-.225 3.927 0 6h7.685c.196-1.811.224-3.93 0-6m6.742 0h-5.736c.062.592.308 3.019 0 6h5.736c.741-2.612.331-4.835 0-6m-12.825-7.771c-3.669.76-6.671 3.35-8.009 6.771h5.524c.426-2.985 1.321-5.403 2.485-6.771m5.954 6.771c-.639-4.266-2.242-7-3.714-7-1.471 0-3.074 2.734-3.713 7h7.427zm-1.473-6.771c1.164 1.368 2.059 3.786 2.485 6.771h5.523c-1.337-3.421-4.339-6.011-8.008-6.771" />
+                    </svg>
+                    English<i class="la-angle-down las ml-1 ms-2"></i>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">Arabic</a>
+                  </div>
+                </li>
+                <li class="nav-item contact">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item search">
+                  <a class="nav-link" href="#">
+                    <div class="search-wrap">
+                      <div class="search-input-elm">
+                        <input class="search-input" type="text" data-addsearch-id="asw_01" placeholder="Search" />
+                        <button class="search-submit">
+                          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+                      </div>
+
+                      <button class="search-btn">
+                        <span>Search</span> <i class="la-search las"></i>
+                      </button>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item accessibility">
+                  <a href="" class="nav-link">
+                    <img src="images/accessibility-button.svg" alt="">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="dropdown nav-item">
+                  <a class="dropdown-toggle nav-link" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Who we are
+                    <i class="la-angle-down las ml-1"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li class="">
+                      <a class="dropdown-item" href="our-company.html">Our Company</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="group-history.html">Our History</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="our-team.html">Our Team</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="governance.html">Governance</a>
+                    </li>
+                    <li class="dropdown">
+                      <a class="dropdown-item dropdown-toggle" href="csr.html" role="button"
+                        aria-expanded="false">Corporate Social Responsibility
+                        <i class="la-angle-right las ml-1"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="csr-sustainability.html">Sustainability
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="csr-emiratisation.html">Emiratisation </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="csr-sports-youth.html">Sports and Youth
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="csr-community.html">Community </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="company-directory.html">Company Directory </a>
+                    </li>
+                  </ul>
+                </li>
+
+
+
+                <li class="dropdown nav-item">
+                  <a class="dropdown-toggle nav-link" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    What we do
+                    <i class="la-angle-down las ml-1"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown">
+                      <a class="dropdown-item dropdown-toggle" href="mobility.html" role="button"
+                        aria-expanded="false">Mobility
+                        <i class="la-angle-right las ml-1"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="automobiles.html">Al Masaood Automobiles
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Al Masaood Mobility
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Auto Central </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Al Masaood Auto Leasing
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown">
+                      <a class="dropdown-item dropdown-toggle" href="industrial.html" aria-expanded="false">Industrial
+                        <i class="la-angle-right las ml-1"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="power-division.html">Al Masaood Power Division
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Al Masaood Commercial Vehicles and Equipment
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Al Masaood Tyres, Batteries and Accessories</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Al Masaood Bergum
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Al Masaood Projects and Engineering Services
+                            Division
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Al Masaood Equipment Rental
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">ARB 4X4 Emirates
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Al Masaood Technical Services
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Al Masaood Industries
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Al Masaood MotorTech
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown">
+                      <a class="dropdown-item dropdown-toggle" href="property.html" role="button"
+                        aria-expanded="false">Property
+                        <i class="la-angle-right las ml-1"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="property.division.html">Al Masaood Property Division
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Al Masaood Projects and Developments
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Masaood Village Facilities Management</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Occidental Sharjah Grand
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link" href="sustainability.html" target="_self">Sustainability</a>
+                </li>
+                <li class="dropdown nav-item">
+                  <a class="dropdown-toggle nav-link" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Media Centre
+                    <i class="la-angle-down las ml-1"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <!-- <li class="">
+                                                <a class="dropdown-item" href="news.html">Magazine</a>
+                                        </li> -->
+                    <li class="">
+                      <a class="dropdown-item" href="news.html">Latest News</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="gallery.html">Gallery</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown nav-item">
+                  <a class="dropdown-toggle nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Careers
+                    <i class="la-angle-down las ml-1"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Working at Al Masaood</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Job Search</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="csr-emiratisation.html">Emiratisation</a>
+                    </li>
+                  </ul>
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="page-banner">
+    <div class="page-banner-content pb-5">
+      <div class="wrapper">
+        <div class="row">
+          <div class="col-md-4">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Media centre</a></li>
+                <li class="active breadcrumb-item" aria-current="page">
+                  Magazine
+                </li>
+              </ol>
+            </nav>
+            <h5 class="bannner-title">Magazine</h5>
+          </div>
+          <div class="col-md-8">
+
+            <h6 class="bannner-description">
+              Discover our collection of past editions, showcasing
+              Al Masaood’s journey through innovation, leadership, and excellence across various industries.
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="magazine">
+    <section class="magazine-listing page-content section-spacer top-right-bg-grey">
+      <div class="wrapper">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="magazine-detail.html" class="text-decoration-none">
+              <div class="card">
+                <span class="card-image">
+                  <img src="images/magazine/magazine-1.png" class="card-img-top" alt="...">
+                </span>
+                <div class="card-body position-relative">
+                  <h5 class="magazine-desc">Charting a path to sustainability leadership. Al masaood’s sustainability
+                    journey for a greener uae.</h5>
+                  <div class="d-flex justify-content-between">
+                    <div class="card-desc">
+                      <h6 class="card-title">
+                        Magazine - March 2023
+                      </h6>
+                    </div>
+                    <div class="icon">
+                      <i class="la-arrow-circle-down las"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <div class="col-md-4">
+            <a href="magazine-detail.html" class="text-decoration-none">
+              <div class="card">
+                <span class="card-image">
+                  <img src="images/magazine/magazine-2.png" class="card-img-top" alt="...">
+                </span>
+                <div class="card-body position-relative">
+                  <h5 class="magazine-desc">Charting a path to sustainability leadership. Al masaood’s sustainability
+                    journey for a greener uae.</h5>
+
+                  <div class="d-flex justify-content-between">
+                    <div class="card-desc">
+                      <h6 class="card-title">
+                        Magazine - March 2023
+                      </h6>
+                    </div>
+                    <div class="icon">
+                      <i class="la-arrow-circle-down las"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+          <div class="col-md-4">
+            <a href="magazine-detail.html" class="text-decoration-none">
+              <div class="card">
+                <span class="card-image">
+                  <img src="images/magazine/magazine-3.png" class="card-img-top" alt="...">
+                </span>
+                <div class="card-body position-relative">
+                  <h5 class="magazine-desc">Charting a path to sustainability leadership. Al masaood’s sustainability
+                    journey for a greener uae.</h5>
+
+                  <div class="d-flex justify-content-between">
+                    <div class="card-desc">
+                      <h6 class="card-title">
+                        Magazine - March 2023
+                      </h6>
+                    </div>
+                    <div class="icon">
+                      <i class="la-arrow-circle-down las"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="magazine-detail.html" class="text-decoration-none">
+              <div class="card">
+                <span class="card-image">
+                  <img src="images/magazine/magazine-4.png" class="card-img-top" alt="...">
+                </span>
+                <div class="card-body position-relative">
+                  <h5 class="magazine-desc">Charting a path to sustainability leadership. Al masaood’s sustainability
+                    journey for a greener uae.</h5>
+
+                  <div class="d-flex justify-content-between">
+                    <div class="card-desc">
+                      <h6 class="card-title">
+                        Magazine - March 2023
+                      </h6>
+                    </div>
+                    <div class="icon">
+                      <i class="la-arrow-circle-down las"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="magazine-detail.html" class="text-decoration-none">
+              <div class="card">
+                <span class="card-image">
+                  <img src="images/magazine/magazine-5.png" class="card-img-top" alt="...">
+                </span>
+                <div class="card-body position-relative">
+                  <h5 class="magazine-desc">Charting a path to sustainability leadership. Al masaood’s sustainability
+                    journey for a greener uae.</h5>
+
+                  <div class="d-flex justify-content-between">
+                    <div class="card-desc">
+                      <h6 class="card-title">
+                        Magazine - March 2023
+                      </h6>
+                    </div>
+                    <div class="icon">
+                      <i class="la-arrow-circle-down las"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="magazine-detail.html" class="text-decoration-none">
+              <div class="card">
+                <span class="card-image">
+                  <img src="images/magazine/magazine-6.png" class="card-img-top" alt="...">
+                </span>
+                <div class="card-body position-relative">
+                  <h5 class="magazine-desc">Charting a path to sustainability leadership. Al masaood’s sustainability
+                    journey for a greener uae.</h5>
+
+                  <div class="d-flex justify-content-between">
+                    <div class="card-desc">
+                      <h6 class="card-title">
+                        Magazine - March 2023
+                      </h6>
+                    </div>
+                    <div class="icon">
+                      <i class="la-arrow-circle-down las"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <nav aria-label="Page" class="pagination-wrap">
+          <ul class="pagination">
+            <li class="page-item prev">
+              <a class="page-link" href="#">Prev</a>
+            </li>
+            <li class="page-item"><a class="active page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="next page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+
+
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrapper">
+      <div class="d-flex align-items-center justify-content-between footer-top">
+        <a href="index.html" class="footer-logo">
+          <img src="images/logo.png" class="img-fluid" />
+        </a>
+        <div class="footer-top-right">
+          <div class="d-flex align-items-center follow-us">
+            <p>Follow us on</p>
+            <ul class="d-flex list-unstyled align-items-center social-media">
+              <li>
+                <a href="https://twitter.com/AlMasaoodLLC" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="13" height="13" version="1.1">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254
+   2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/al-masaood/" target="_blank">
+                  <i class="la-linkedin-in lab"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/almasaoodllc/?hl=en" target="_blank">
+                  <i class="la-instagram lab"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/almasaoodllc/" target="_blank">
+                  <i class="la-facebook-f lab"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.youtube.com/channel/UCijhe1pYuJjtA9eeSzenSgQ?view_as=subscriber">
+                  <i class="la-youtube lab"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-middle">
+        <ul class="d-flex list-unstyled">
+          <li>
+            <a href="javascript:void(0)"> Who we are </a>
+          </li>
+          <li>
+            <a href="our-company.html"> Our Company </a>
+          </li>
+          <li>
+            <a href="group-history.html"> Our History </a>
+          </li>
+          <li>
+            <a href="our-team.html"> Our Team </a>
+          </li>
+          <li>
+            <a href="governance.html"> Governance </a>
+          </li>
+          <li>
+            <a href="csr.html"> Corporate Social Responsibility </a>
+          </li>
+          <li>
+            <a href="company-directory.html"> Company Directory </a>
+          </li>
+        </ul>
+        <ul class="d-flex list-unstyled">
+          <li>
+            <a href="javascript:void(0)"> What we Do </a>
+          </li>
+          <li>
+            <a href="mobility.html"> Mobility </a>
+          </li>
+          <li>
+            <a href="industrial.html"> Industrial </a>
+          </li>
+          <li>
+            <a href="property.html"> Property </a>
+          </li>
+          <li>
+            <a href=""> Partner With Us </a>
+          </li>
+        </ul>
+        <ul class="d-flex list-unstyled">
+          <li>
+            <a href="javascript:void(0)"> Quick Links </a>
+          </li>
+          <li>
+            <a href="contact.html"> Contact Us </a>
+          </li>
+          <li>
+            <a href=""> Careers </a>
+          </li>
+          <li>
+            <a href="sustainability.html"> Sustainability </a>
+          </li>
+          <li>
+            <a href=""> Newsletter </a>
+          </li>
+          <li>
+            <a href="blog.html"> Blog </a>
+          </li>
+        </ul>
+
+        <!-- <div class="group-web">
+          <a href="" class="d-flex align-items-center gap-2">
+            Al Masaood Group Company websites
+            <i class="la-angle-down las ml-1"></i>
+          </a>
+        </div> -->
+
+        <ul class="group-web">
+          <li class="dropdown">
+            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Al Masaood Group Company websites
+              <i class="la-angle-down las ml-1"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">Al Masaood Corporate</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">AL Masaood PESD</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">AL Masaood Power</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex align-items-center justify-content-between footer-bottom">
+        <ul class="d-flex list-unstyled mb-0">
+          <li>
+            <a href=""> Sitemap </a>
+          </li>
+          <li>
+            <a href="privacy-policy.html"> Data Protection & Privacy Policy </a>
+          </li>
+          <li>
+            <a href="
+                ">Accessibility</a>
+          </li>
+        </ul>
+        <div class="copyright">
+          <a href="javascript:void(0)">Al Masaood Group <span id="copyright"></span>. &copy;All Rights Reserved</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

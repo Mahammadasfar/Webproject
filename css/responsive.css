@@ -1,0 +1,1003 @@
+@media (max-width: 1024px) {
+
+  /* home what we do */
+  .home .what-we-do .what-we-do-image .whatwedo-img img {
+    max-width: 270px;
+  }
+  .home .what-we-do .whatwedoimg-box2 {
+    left: -40px;
+  }
+  .home .what-we-do .whatwedoimg-box1 {
+    right: -40px;
+  }
+  .home .what-we-do .whatwedoimg-box1 h6,
+  .home .what-we-do .whatwedoimg-box2 h6 {
+    font-size: 2rem;
+  }
+  .home .what-we-do .whatwedoimg-box1 span,
+  .home .what-we-do .whatwedoimg-box2 span {
+    font-size: 0.75rem;
+  }
+
+  /* Chairman */
+  .chairman-profile .content{
+    margin-bottom: 20%;
+  }
+
+  .chairman-profile .profile{
+    margin-bottom: 20%;
+  }
+  .chairman-profile .content p::before{
+    top: -40px;
+    left: -30px;
+  }
+    /* home sustainability  */
+
+  .home .sustainability h5{
+  font-size: 2rem;
+          }        
+  .home .sustainability-box .sustainability-desc {
+    font-size: 0.675rem;
+  }
+  .home .sustainability .cta-links .btn-primary {
+    margin-bottom: 1rem;
+  }
+
+  .home .sustainability-box img {
+    width: 40px;
+    height: 40px;
+  }
+
+       /* home career */
+  .home .career .emp-count .number {
+    font-size: 2.5rem;
+  }
+  .home .career .emp-count span {
+    font-size: 1.5rem;
+  }
+
+
+
+  /* our-team */
+  .our-team .our-team-nav .nav-tabs .nav-link {
+    white-space: nowrap;
+  }
+  .our-team .our-team-nav .nav{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  /* corporate social responsibility */
+  .csr .csr-content .csr-card .card-body .card-text, .csr .csr-content .csr-card .card-body .la-arrow-circle-down {
+    font-size: 0.875rem;
+
+}
+
+.csr .csr-content .csr-card .card-body{
+  align-items: center;  
+}
+
+/* custom-tab */
+
+.csr-tab .custom-tab {
+  overflow-x: auto;
+  scrollbar-width: none;
+
+}
+
+.csr-tab .custom-tab li a{
+  white-space: nowrap;
+}
+
+/* company directory */
+.company-directory .cd-nav .nav {
+  flex-wrap: nowrap;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.company-directory .company-directory-tab .search-content-wrap .search-content ul .name{
+  font-size: 1rem;
+}
+
+
+
+}
+
+@media (max-width: 991px) {
+    
+  body .uwy.userway_p1 .userway_buttons_wrapper {
+      top:9px !important;
+      width: 40px;
+      height: 40px;
+      left: auto;
+      right: 0;
+  }
+  .uwy .uai img:not(.userway_check_on), .uwy .ulsti img:not(.userway_check_on), body .uwy .uai img:not(.userway_check_on), body .uwy .ulsti img:not(.userway_check_on), body .uwy .uai, body .uwy .ulsti {
+      width: 32px !important;
+      height: 32px !important;
+  }
+  #userwayAccessibilityIcon.uai userway_dark {
+  background-color: red !important;
+}
+
+
+
+/* header */
+
+header .navbar .navbar-brand {
+  padding-top: 0;
+}
+
+header .navbar .navbar-brand img {
+  position: relative;
+  max-width: 54px;
+  width: 100%;
+  padding-top: 3.5rem;
+}
+
+.header-wrap::after {
+  content: "";
+  position: absolute;
+  top: 48px;
+  width: 100%;
+  height: 1px;
+  background-color: #dee2e6;
+}
+
+.navbar-toggler {
+  position: absolute;
+  left: 0px;
+  top: 4px;
+  padding-left: 0;
+}
+
+header.fixed {
+  padding-bottom: 12px;
+}
+
+header .top-bar {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  display: none;
+}
+
+header .navbar-light .navbar-nav .nav-item {
+  width: 100%;
+  margin: 5px 0;
+}
+
+header .menu-wrap .top-nav .nav-link {
+  border-right: 0;
+}
+header .navbar {
+  padding: 0.5rem 0 !important;
+}
+
+.navbar-nav {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  justify-content: flex-start;
+  padding-top: 3rem;
+}
+
+/* header wrap expanded */
+
+.header-wrap-expanded {
+  background-color: rgba(var(--primary-color), 1) !important;
+}
+
+header .lang-sel,
+header .contact {
+  display: block;
+}
+header .search {
+  /* display: none; */
+}
+
+.header-wrap-expanded .lang-sel,
+.header-wrap-expanded .contact {
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.header-wrap-expanded .search {
+  /* display: none; */
+  width: 100%;
+}
+
+.header-wrap-expanded .menu-wrap .top-nav {
+  /* display: none; */
+}
+
+.header-wrap-expanded .top-bar {
+  top: auto;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  position: fixed;
+  padding: 1rem;
+  background: rgba(var(--primary-color), 1);
+  /* bottom: 0; */
+  z-index: 9999999;
+  left: 0;
+  right: auto;
+}
+
+.header-wrap-expanded .menu-wrap .top-nav .nav-link {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 0;
+}
+header .navbar-light .navbar-nav .nav-item::before {
+  background-color: rgb(255, 255, 255, 30%);
+}
+
+.header-wrap-expanded .nav.top-nav .nav-item:last-child:last-child .nav-link {
+  border-bottom: none;
+}
+
+.header-wrap-expanded .search .search-btn {
+  padding-left: 0;
+}
+
+.header-wrap-expanded .accessibility {
+width: 100%;
+}
+
+header .search .search-input-elm {
+  max-width: 250px;
+  top: 4px;
+  right: 0;
+}
+
+.header-wrap-expanded .navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0.5rem 0rem;
+}
+
+.header-wrap-expanded .menu-wrap .top-nav .nav-link {
+  padding: 0.7rem 0rem;
+}
+
+.header-wrap-expanded .navbar-light .dropdown-menu {
+  left: 0 !important;
+}
+
+.header-wrap-expanded .navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0.8rem 0rem;
+  padding-bottom: 0.2rem;
+}
+
+.header-wrap-expanded .navbar-light .navbar-nav .nav-item {
+  margin-bottom: 0;
+}
+
+.header-wrap-expanded .navbar-nav {
+  padding-top: 2rem;
+}
+
+.header-wrap-expanded .navbar-nav .nav-item .dropdown-menu li .dropdown-item::before {
+  /* content: "\f30b"; */
+  content: "\f105";
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+  position: absolute;
+  left: -8px;
+  font-size: 1rem;
+  opacity: 0.4;
+  color: #fff;
+  margin-top: -3px;
+}
+
+.header-wrap-expanded .navbar-light .dropdown-menu {
+  padding-right: 0;
+  margin-top: 0;
+  padding-top: 0.4rem;
+}
+
+.header-wrap-expanded .navbar-light .dropdown-item .la-angle-right {
+  right: 0;
+}
+
+.header-wrap-expanded .navbar-toggler {
+  position: absolute;
+  right: -10px;
+  top: 3px;
+  right: auto;
+}
+
+.header-wrap-expanded .navbar-toggler .la-bars::before {
+  content: "\f00d";
+}
+
+/* page banner */
+.page-banner .page-banner-content .bannner-title {
+  font-size: 2rem;
+}
+
+.page-banner .page-banner-content .bannner-description {
+  font-size: 1.5rem;
+}
+
+
+/************* Home - career ***************/
+
+.home .career .emp-count .number {
+  font-size: 2rem;
+}
+
+.home .career .emp-count span {
+  font-size: 1.25rem;
+}
+}
+
+@media (max-width: 767px) {
+/* general */
+
+.section-spacer {
+  padding: 4rem 0;
+}
+
+/* page banner */
+
+.page-content .wrapper:first-child {
+  margin-top: -7.5rem;
+  position: relative;
+  z-index: 10;
+}
+
+.page-banner-content {
+  padding-bottom: 6.25rem !important;
+}
+
+.page-banner .page-banner-content .bannner-title {
+  font-size: 1.75rem;
+}
+
+.page-banner .page-banner-content .bannner-description {
+  font-size: 1.25rem;
+}
+
+/* Footer */
+footer .footer-top .footer-logo {
+  width: 300px;
+  margin-bottom: 1.25rem;
+}
+
+footer .footer-top {
+  padding-bottom: 0;
+}
+
+footer .footer-top .footer-logo img {
+  display: block;
+}
+
+.footer-top .footer-top-right .follow-us .social-media {
+  gap: 0.5em;
+  font-size: 1.25rem;
+}
+
+.footer-top-right {
+  width: 100%;
+}
+
+footer .footer-middle ul {
+  flex-direction: column;
+  border-bottom: none !important;
+        border-top: none;
+}
+
+footer .footer-middle .group-web li a{
+border-bottom: none;
+}
+
+footer .footer-middle ul li a,
+footer .footer-bottom ul li a {
+  border-right: none;
+  display: block;
+  padding-bottom: 1rem;
+}
+
+footer .footer-middle {
+  border-bottom: none;
+}
+
+footer .footer-middle ul li a {
+  border-bottom: 1px solid #fff;
+}
+
+footer .footer-middle ul:first-of-type li:first-child a,
+footer .footer-middle ul:nth-of-type(2) li:nth-child(2) a,
+footer .footer-middle ul:nth-of-type(3) li:nth-child(3) a,
+footer .footer-middle ul:nth-of-type(3) li:last-child a {
+  /*border-bottom: none;*/
+  /*display: inline;*/
+}
+
+footer .footer-bottom ul li a {
+  border-bottom: 1px solid #fff;
+}
+
+footer .footer-bottom ul li:last-child a {
+  border-bottom: none;
+}
+
+footer .footer-bottom {
+  flex-direction: column;
+  align-items: baseline !important;
+}
+
+footer .footer-bottom ul {
+  flex-direction: column;
+  width: 100%;
+}
+
+footer .footer-bottom {
+  padding-top: 3.5rem;
+}
+
+
+/************* Home - Banner ***************/
+.home .landing .landing-caption h3 {
+  font-size: 2rem;
+  margin-bottom: 30%;
+}
+
+.home .landing .landing-caption {
+  margin-bottom: 15%;
+}
+
+/************* Home - Who Are We ***************/
+.home .who-we-are .who-we-are-content h4 {
+  font-size: 2.5rem;
+}
+
+.home .who-we-are .who-we-are-content {
+  padding: 3rem 0;
+}
+
+/************* Home - What We Do ***************/
+
+.home .what-we-do .what-we-do-content h5 {
+  font-size: 2.5rem;
+}
+
+.home .what-we-do .what-we-do-wrap .what-we-do-content {
+  margin-bottom: 1.5rem;
+}
+
+.home .what-we-do .what-we-do-box-two {
+  left: -5px;
+}
+
+.home .what-we-do .what-we-do-box {
+  right: -5px;
+}
+
+.home .what-we-do .what-we-do-box h6,
+.home .what-we-do .what-we-do-box-two h6 {
+  font-size: 2rem;
+}
+
+.home .what-we-do .what-we-do-box span,
+.home .what-we-do .what-we-do-box-two span {
+  font-size: 0.875rem;
+}
+
+.home .what-we-do .what-we-do-image {
+  margin-bottom: 1rem;
+}
+
+.home .what-we-do .what-we-do-image .whatwedo-img img {
+  max-width: 270px;
+}
+
+.home .what-we-do .whatwedoimg-box2 {
+  left: -40px;
+}
+
+.home .what-we-do .whatwedoimg-box1 {
+  right: -40px;
+}
+
+.home .what-we-do .whatwedoimg-box1 h6,
+.home .what-we-do .whatwedoimg-box2 h6 {
+  font-size: 2rem;
+}
+
+.home .what-we-do .whatwedoimg-box1 span,
+.home .what-we-do .whatwedoimg-box2 span {
+  font-size: 0.75rem;
+}
+
+
+
+/************* Home - chairman-profile ***************/
+
+.chairman-profile{
+  padding-top: 20%;
+}
+
+.chairman-profile .content p::before {
+  top: -20px;
+  left: -10px;
+}
+
+.chairman-profile .profile h6 {
+  font-size: 1rem;
+}
+
+.chairman-profile .img-wrap {
+  margin-top: 2.5rem;
+}
+
+
+/************* Home - sustainability ***************/
+.home .sustainability h5 {
+  font-size: 2.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.home .sustainability .sustainability-content {
+  margin-bottom: 2.5rem;
+}
+
+.home .sustainability .sustainability-content .btn-primary {
+  margin-bottom: 1rem;
+}
+
+.home .sustainability p {
+  margin-bottom: 1.5rem;
+}
+
+
+.home .sustainability-box .sustainability-desc {
+  font-size: 0.875rem;
+}
+
+.home .sustainability .cta-links .btn-primary {
+  margin-bottom: 1rem;
+}
+
+
+
+
+/************* Home - career ***************/
+
+.home .career .career-content {
+  margin-bottom: 2.5rem;
+}
+
+.home .career h5 {
+  font-size: 2.5rem;
+}
+
+.home .career .emp-count {
+  margin-bottom: 1.5rem;
+  height: 250px;
+}
+
+.home .career .emp-count .number {
+  font-size: 2rem;
+}
+
+.home .career .emp-count span {
+  font-size: 1.25rem;
+}
+
+/************* Home - Latest news ***************/
+
+.home .latest-news .section-heading h5 {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+.home .latest-news .news-card p {
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
+
+.home .latest-news .section-heading h6 {
+  margin-bottom: 0.5rem;
+}
+
+.home .latest-news .owl-nav {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.latest-news .section-heading .btn-wrap{
+justify-content: flex-start !important;
+margin: 1rem 0;
+}
+
+
+/* our-team */
+.our-team .our-team-nav .nav-tabs {
+  justify-content: normal;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.our-team .our-team-content .card .card-body {
+  padding: 1.5rem 0;
+  padding-bottom: 0;
+}
+
+.our-team .our-team-content .management-team .card .card-text p,
+.our-team .our-team-section .management-team .card .card-text a {
+  font-size: 1rem;
+}
+
+.our-team .our-team-nav .nav-tabs .nav-link {
+  white-space: nowrap;
+}
+
+/* Governance */
+.governance .governance-content img {
+  margin-bottom: 1.5rem;
+}
+
+
+/* csr-tab */
+.csr .custom-tab {
+  overflow: scroll;
+  scrollbar-width: none;
+  gap: 1.5rem;
+
+}
+
+.csr .custom-tab li {
+  white-space: nowrap;
+}
+
+.csr .csr-content .csr-description  .img-wrap {
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.csr .csr-content .csr-card .card {
+  margin-bottom: 1.5rem;
+}
+
+.csr.csr-tab-content .img-container img {
+  margin-bottom: 1rem;
+}
+
+.csr-tab .csr-tab-content .sustainability h5,
+.csr-tab .csr-tab-content .emiratisation h5,
+.csr-tab .csr-tab-content .sports-youth h5,
+.csr-tab .csr-tab-content .community h5 {}
+
+.csr-tab .custom-tab li{
+  white-space: nowrap;
+}
+
+.csr-tab .custom-tab {
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.csr-tab .csr-tab-content .img-container img {
+  margin-bottom: 1rem;
+}
+
+/* Mobility */
+
+.mobility .mobility-section .mobility-description .img-wrap {
+  margin-bottom: 1.5rem;
+  display: block;
+
+}
+
+.mobility-banner::after{
+  width: 300px;
+}
+
+.mobility .mobility-section .mobility-description h5 {
+  font-size: 1.25rem;
+}
+
+.mobility .mobility-section .mobility-content .img-wrap {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.mobility .mobility-section .mobility-content {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+/* al-masaood-automobiles */
+
+.al-masaood-automobiles .automobiles-section .automobiles-content .automobile-img {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.al-masaood-automobiles .automobiles-section .automobiles-content h5 {
+  font-weight: 500;
+}
+
+
+.al-masaood-automobiles .automobiles-section .automobiles-content .car-comapnies{
+  margin: 2rem 0;
+}
+.al-masaood-automobiles .automobiles-section .automobiles-content .car-comapnies .img-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+
+}
+
+/* Industrial */
+
+.industrial .industrial-section .industrial-description .img-wrap {
+  margin-bottom: 1.5rem;
+  display: block;
+
+}
+
+.industrial-banner::after {
+  width: 375px;
+  right: 0;
+  bottom: 0;
+}
+
+.industrial .industrial-section .industrial-description h5 {
+  font-size: 1.25rem;
+}
+
+.industrial .industrial-section .industrial-content .img-wrap {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.industrial .industrial-section .industrial-content {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+  /* power-division */
+
+  .power-division .pd-section .pd-content .pd-img {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .power-division .pd-section .pd-content h5 {
+    font-weight: 500;
+  }
+
+  .power-division .pd-section .pd-content .car-comapnies .img-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  
+/* property */
+
+.property .property-section .property-description .img-wrap {
+  margin-bottom: 1.5rem;
+  display: block;
+
+}
+
+.property-banner::after{
+  right: 0;
+}
+
+.property .property-section .property-description h5 {
+  font-size: 1.25rem;
+}
+
+.property .property-section .property-content .img-wrap {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.property .property-section .property-content {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+    /* property-division */
+
+    .property-division .pd-section .pd-content .pd-img {
+      display: block;
+      margin-bottom: 1rem;
+    }
+  
+    .property-division .pd-section .pd-content h5 {
+      font-weight: 500;
+    }
+
+    .property-division .pd-section .pd-content .car-comapnies .img-wrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    /* magazine  */
+
+    .magazine .magazine-listing .magazine-desc {
+      font-size: 1.1rem;
+    }
+
+    .magazine .magazine-listing .card h6{
+      font-size: 1.1rem;
+    }
+
+
+    /*************  sustainability ***************/
+.sustainability .sustainability-content .sustainability-left {
+margin-bottom: 2rem;
+}
+
+/*************  contact ***************/
+
+.contact .contact-left {
+margin-bottom: 1.5rem;
+}
+
+/*************  News ***************/
+
+.news .news-listing .news-listing-content h5 {
+margin: 1rem 0rem 0.5rem 0rem;
+font-size: 1.1rem;
+}
+
+.news .news-listing .news-listing-content img {
+width: 100%;
+}
+
+/*************  Gallery ***************/
+
+.gallery .row .card {
+border-bottom: 1px solid rgba(211, 208, 243, 1);
+}
+
+.gallery .gllery-listing .card .card-body .card-desc {
+max-width: 80%;
+}
+
+.gallery .gllery-listing .card .card-body .icon {
+max-width: 20%;
+}
+
+.gallery .gllery-listing .card h5 {
+font-size: 1.1rem;
+}
+
+
+
+
+
+/* media-detail */
+
+.media-detail .media-detail-content .media-description {
+margin-bottom: 4.5rem;
+}
+
+.media-detail .media-detail-content .related-news .card .card-body .card-title {
+margin: 0.75rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+/************* Group History ***************/
+
+.group-history .our-timeline .timeline-heading {
+font-size: 2rem !important;
+}
+
+.group-history .group-history-content .history-img {
+margin-bottom: 1.5rem;
+}
+
+.horizontal-timeline .events-content li .card .card-title {
+margin-top: 1rem;
+}
+
+.horizontal-timeline .events-content li .card img {
+margin-bottom: 1rem;
+}
+
+
+/* nav-scroll */
+.header-wrap-expanded .navbar-nav {
+ overflow-y: auto;
+  height: 75vh;
+  
+}
+
+.header-wrap-expanded .navbar-light .dropdown:hover>.dropdown-menu .dropdown>.dropdown-menu{
+  padding:0;
+}
+
+
+/* company directory */
+.company-directory .cd-nav .nav {
+  flex-wrap: nowrap;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.company-directory .company-directory-tab .img-wrap img {
+margin-bottom: 1rem;
+}
+
+.company-directory .company-directory-tab .search-content-wrap .search-content ul li {
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.company-directory .company-directory-tab .form-control {
+  font-size: 0.8rem;
+}
+
+.company-directory .company-directory-tab .form-control {
+  padding: 1.1rem 0.75rem;
+}
+
+.company-directory .company-directory-tab .search-content-wrap .search-content ul .name{
+  font-size: 1rem;
+}
+
+/* company directory  detail*/
+.company-directory-detail .cdd-content .img-wrap{
+  margin-bottom: 1rem;
+}
+
+.our-company .our-company-content .img-wrap img {
+  margin-bottom: 1.5rem;
+}
+.our-company .mission-vision-value .vision{
+  margin-bottom: 1.5rem;
+}
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  /* home - career */
+    .home .emp-collage{
+      flex-direction: column;
+      height: auto;
+    }
+    .home .career .emp-count {
+      padding: 2.5rem 1rem;
+    } 
+
+    .home .career .emp-count .number{
+      font-size: 2.5rem;
+    }
+
+    .home .career .emp-count span{
+      font-size: 1.5rem;
+    }
+
+  }
+
+
+
+
+
+
